@@ -43,7 +43,7 @@ export function configure(
     _state = createState();
   }
 
-  if (Platform.OS === 'ios' || Platform.OS === 'android') {
+  if (Platform.OS === 'ios') {
     NativeInterface.configure(configuration);
   }
 }
